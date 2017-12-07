@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>한국잡지협회-검색포털 관리 시스템</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <!-- Place favicon.ico in the root directory -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- Basic Styles -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+
+        <!-- SmartAdmin Styles : Caution! DO NOT change the order -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production-plugins.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-skins.min.css">
+
+        <!-- SmartAdmin RTL Support  -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.min.css">
+
+        <!-- We recommend you use "your_style.css" to override SmartAdmin
+             specific styles this will also ensure you retrain your customization with each SmartAdmin update.
+        <link rel="stylesheet" type="text/css" media="screen" href="css/your_style.css"> -->
+
+        <!-- for custom style of this project -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+
+        <!-- GOOGLE FONT -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
+    </head>
+    <body class="animated fadeInDown">
+        <header id="header">
+            <div id="logo-group">
+                <!-- PLACE YOUR LOGO HERE -->
+                <span id="logo"> <img src="img/link7.png" alt="kmagazine"> </span>
+            </div>
+        </header>
+        <div id="login">
+            <!-- MAIN CONTENT -->
+            <div class="container">
+                    <div class="title"><h1><b>한국잡지협회-검색포털 관리 시스템</b></h1></div>
+                        <div class="well no-padding">
+                            <form action="index.html" id="login-form" class="smart-form client-form">
+                                <fieldset>
+                                    <section>
+                                        <input type="radio" id="contactChoice1"
+                                               name="type" value="admin" checked>
+                                        <label for="contactChoice1">관리자</label>
+                                        <input type="radio" id="contactChoice2"
+                                               name="type" value="publisher">
+                                        <label for="contactChoice2">발행처</label>
+                                    </section>
+                                    <section>
+                                        <label class="input"> <i class="icon-append fa fa-user"></i>
+                                            <input type="email" name="email" placeholder="Username">
+                                        </label>
+                                    </section>
+                                    <section>
+                                        <label class="input"> <i class="icon-append fa fa-lock"></i>
+                                            <input type="text" name="password" placeholder="Password">
+                                        </label>
+                                    </section>
+                                    <!--
+                                    <section>
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="remember" checked="">
+                                            <i></i>Stay signed in</label>
+                                    </section>
+                                    -->
+                                </fieldset>
+                                <footer>
+                                    <button type="submit" class="btn btn-primary">
+                                        LOGIN
+                                    </button>
+                                </footer>
+                            </form>
+                        </div>
+            </div>
+        </div>
+        <!-- MAIN APP JS FILE -->
+        <script></script>
+    </body>
+</html>
