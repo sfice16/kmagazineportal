@@ -58,21 +58,16 @@
         <nav>
             <ul>
                 <li class="active">
-                    <a href="#" title="Dashboard"> <span class="menu-item-parent">대시보드</span></a>
-                    <ul>
-                        <li class="active">
-                            <a href="index.html" title="Dashboard"><span class="menu-item-parent">Dashboard</span></a>
-                        </li>
-                    </ul>
+                    <a href="index.html" title="Dashboard"> <span class="menu-item-parent">대시보드</span></a>
                 </li>
                 <li class="top-menu-invisible">
                     <a href="#"> <span class="menu-item-parent">배너관리</span></a>
                     <ul>
                         <li class="">
-                            <a href="layouts.html" title="Dashboard"><i class="fa fa-lg fa-fw fa-gear"></i> <span class="menu-item-parent">App Layouts</span></a>
+                            <a href="bannerManagement.html" title="Dashboard"><i class="fa fa-lg fa-fw fa-gear"></i> <span class="menu-item-parent">배너 관리</span></a>
                         </li>
                         <li>
-                            <a href="applayout.html"><i class="fa fa-cube"></i> App Settings</a>
+                            <a href="bannerStatistics.html"><i class="fa fa-cube"></i>배너 통계</a>
                         </li>
                     </ul>
                 </li>
@@ -80,23 +75,18 @@
                     <a href="#"><span class="menu-item-parent">통계관리</span></a>
                     <ul>
                         <li class="">
-                            <a href="layouts.html" title="Dashboard"><span class="menu-item-parent">App Layouts</span></a>
+                            <a href="magazineStatistics.html" title="Dashboard"><span class="menu-item-parent">매거진 별 접속현황</span></a>
                         </li>
                         <li>
-                            <a href="applayout.html">App Settings</a>
+                            <a href="articleStatistics.html">기사별 통계</a>
+                        </li>
+                        <li>
+                            <a href="keywordStatistics.html">인기검색어 통계</a>
                         </li>
                     </ul>
                 </li>
                 <li class="top-menu-invisible">
                     <a href="#"><span class="menu-item-parent">관리자관리</span></a>
-                    <ul>
-                        <li class="">
-                            <a href="layouts.html" title="Dashboard"><span class="menu-item-parent">App Layouts</span></a>
-                        </li>
-                        <li>
-                            <a href="applayout.html"><i class="fa fa-cube"></i> App Settings</a>
-                        </li>
-                    </ul>
                 </li>
 
             </ul>
@@ -104,36 +94,6 @@
     </aside>
     <!-- MAIN PANEL -->
     <div id="main" role="main">
-
-        <!-- RIBBON -->
-        <div id="ribbon">
-
-				<span class="ribbon-button-alignment">
-					<span id="refresh" class="btn btn-ribbon" data-action="resetWidgets" data-title="refresh"  rel="tooltip" data-placement="bottom" data-original-title="<i class='text-warning fa fa-warning'></i> Warning! This will reset all your widget settings." data-html="true">
-						<i class="fa fa-refresh"></i>
-					</span>
-				</span>
-
-            <!-- breadcrumb -->
-            <ol class="breadcrumb">
-                <li>Home</li><li>Dashboard</li>
-            </ol>
-            <!-- end breadcrumb -->
-
-            <!-- You can also add more buttons to the
-            ribbon for further usability
-
-            Example below:
-
-            <span class="ribbon-button-alignment pull-right">
-            <span id="search" class="btn btn-ribbon hidden-xs" data-title="search"><i class="fa-grid"></i> Change Grid</span>
-            <span id="add" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa-plus"></i> Add</span>
-            <span id="search" class="btn btn-ribbon" data-title="search"><i class="fa-search"></i> <span class="hidden-mobile">Search</span></span>
-            </span> -->
-
-        </div>
-        <!-- END RIBBON -->
-
         <!-- MAIN CONTENT -->
         <div id="content">
             <!-- widget grid -->
@@ -160,9 +120,7 @@
                                         <a data-toggle="tab" href="#s3"><i class="fa fa-dollar"></i> <span class="hidden-mobile hidden-tablet">Revenue</span></a>
                                     </li>
                                 </ul>
-
                             </header>
-
                             <!-- widget div-->
                             <div class="no-padding">
                                 <!-- widget edit box -->
@@ -171,7 +129,6 @@
                                     test
                                 </div>
                                 <!-- end widget edit box -->
-
                                 <div class="widget-body">
                                     <!-- content -->
                                     <div id="myTabContent" class="tab-content">
@@ -284,15 +241,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                         <!-- end s1 tab pane -->
-
                                         <div class="tab-pane fade" id="s2">
                                             <div class="widget-body-toolbar bg-color-white">
-
                                                 <form class="form-inline" role="form">
-
                                                     <div class="form-group">
                                                         <label class="sr-only" for="s123">Show From</label>
                                                         <input type="email" class="form-control input-sm" id="s123" placeholder="Show From">
@@ -300,7 +253,6 @@
                                                     <div class="form-group">
                                                         <input type="email" class="form-control input-sm" id="s124" placeholder="To">
                                                     </div>
-
                                                     <div class="btn-group hidden-phone pull-right">
                                                         <a class="btn dropdown-toggle btn-xs btn-default" data-toggle="dropdown"><i class="fa fa-cog"></i> More <span class="caret"> </span> </a>
                                                         <ul class="dropdown-menu pull-right">
@@ -312,21 +264,15 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-
                                                 </form>
-
                                             </div>
                                             <div class="padding-10">
                                                 <div id="statsChart" class="chart-large has-legend-unique"></div>
                                             </div>
-
                                         </div>
                                         <!-- end s2 tab pane -->
-
                                         <div class="tab-pane fade" id="s3">
-
                                             <div class="widget-body-toolbar bg-color-white smart-form" id="rev-toggles">
-
                                                 <div class="inline-group">
 
                                                     <label for="gra-0" class="checkbox">
@@ -339,7 +285,6 @@
                                                         <input type="checkbox" name="gra-2" id="gra-2" checked="checked">
                                                         <i></i> Signups </label>
                                                 </div>
-
                                                 <div class="btn-group hidden-phone pull-right">
                                                     <a class="btn dropdown-toggle btn-xs btn-default" data-toggle="dropdown"><i class="fa fa-cog"></i> More <span class="caret"> </span> </a>
                                                     <ul class="dropdown-menu pull-right">
@@ -351,19 +296,15 @@
                                                         </li>
                                                     </ul>
                                                 </div>
-
                                             </div>
-
                                             <div class="padding-10">
                                                 <div id="flotcontainer" class="chart-large has-legend-unique"></div>
                                             </div>
                                         </div>
                                         <!-- end s3 tab pane -->
                                     </div>
-
                                     <!-- end content -->
                                 </div>
-
                             </div>
                             <!-- end widget div -->
                         </div>
