@@ -37,17 +37,24 @@
                 border: 2px solid#000000;
                 border-style: solid;
             }
-            div.whole
+            div.row
             {
-                background-color: white;
+/*                 background-color: white; */
             }
-            .table-bordered>thead>tr>th,
+            .table-bordered>thead>tr>th
+            {
+                border-width: 3px;
+                border-color: black;
+                text-align: center;
+                background-color: #D3D3D3;
+            }
             .table-bordered>tbody>tr>td
             {
                 border-width: 3px;
                 border-color: black;
                 text-align: center;
             }
+            
             hr.one
             {
                 color: black;
@@ -56,6 +63,7 @@
             .table.table-bordered
             {
                 border-top-color: black;
+                border-right-color:black;
                 border-width: 3px;
                 text-align: center;
             }
@@ -63,10 +71,26 @@
             {
                 align: center;
             }
+            
+            table td.shrink 
+            {
+    			white-space:nowrap
+			}
+			
+			div.dataTables_paginate
+			{
+				float:none;
+			}
+/* 			body */
+/* 			{ */
+/* 				background:url(../img/mybg.png) #fff; */
+/* 			} */
+		
         </style>
         </head>
         <body>
             <!-- HEADER -->
+            <div class="row">
             <header id="header">
                 <div id="logo-group">
                     <!-- PLACE YOUR LOGO HERE -->
@@ -118,17 +142,33 @@
                             </ul>
                         </li>
                         <li class="top-menu-invisible">
+                            <a href="stasticManagePopularSearchView.html">
+                            	<span class="menu-item-parent">통계관리>기사뷰</span>
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="top-menu-invisible">
                             <a href="adminList.html"><span class="menu-item-parent">관리자관리</span></a>
+                        </li>
+                        <li class="top-menu-invisible">
+                            <a href="adminUpdateList.html"><span class="menu-item-parent">관리자등록/수정</span></a>
                         </li>
 
                     </ul>
                 </nav>
             </aside>
+            
+            
+            
+            
             <!-- MAIN PANEL -->
             <!-- widget div-->
             <div id="main" role="main">
                 <div id="content">
                     <div class="row">
+                        <div class="col-sm-10 col-md-offset-1" ><!-- col-xs-12 col-md-10  -->
+                        
                         <div class="whole">
                             <!-- widget content -->
                             <div class="widget-body">
@@ -138,7 +178,7 @@
                                         <div class="fonts" align="center">
                                             <font size="5px" color="black" >&nbsp;&nbsp;&nbsp;검색</font>&nbsp;&nbsp;&nbsp;
                                             <select>
-                                                <option>전체&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                                <option><b>전체</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             </select>
                                             <input type="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -148,9 +188,15 @@
                                         </div>
                                     </div>
                                     <br><br><br><br>
-                                    <table border="1px">
-                                        <tr><td><font>전체: 540</font></td><td>dfd</td></tr>
+                                    
+                                    <table border="0px" width="100%">
+                                    
+                                        <tr><td><strong>전체: 540</strong></td><td align="right"><select>
+                                                <option><strong>10개</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            </select></td></tr>
                                     </table>
+                                    
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>
@@ -245,55 +291,59 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <div class="dataTables_paginate paging_simple_numbers" id="datatable_tabletools_paginate">
-                                        <ul class="pagination">
-                                            <li class="paginate_button previous disabled" id="datatable_tabletools_previous">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="0" tabindex="0">
-                                                    Previous
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button active">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="1" tabindex="0">
-                                                1
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button ">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="2" tabindex="0">
-                                                2
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button ">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="3" tabindex="0">
-                                                3
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button ">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="4" tabindex="0">
-                                                4
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button ">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="5" tabindex="0">
-                                                5
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button disabled" id="datatable_tabletools_ellipsis">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="6" tabindex="0">
-                                                …
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button ">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="7" tabindex="0">
-                                                10
-                                                </a>
-                                            </li>
-                                            <li class="paginate_button next" id="datatable_tabletools_next">
-                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="8" tabindex="0">
-                                                Next
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <div class="table_toolbar">
+	                                    <div class="dataTables_paginate paging_simple_numbers" id="datatable_tabletools_paginate" align="center">
+	                                        <ul class="pagination">
+	                                            <li class="paginate_button previous disabled" id="datatable_tabletools_previous">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="0" tabindex="0">
+	                                                    Previous
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button active">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="1" tabindex="0">
+	                                                1
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button ">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="2" tabindex="0">
+	                                                2
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button ">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="3" tabindex="0">
+	                                                3
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button ">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="4" tabindex="0">
+	                                                4
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button ">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="5" tabindex="0">
+	                                                5
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button disabled" id="datatable_tabletools_ellipsis">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="6" tabindex="0">
+	                                                …
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button ">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="7" tabindex="0">
+	                                                10
+	                                                </a>
+	                                            </li>
+	                                            <li class="paginate_button next" id="datatable_tabletools_next">
+	                                                <a href="#" aria-controls="datatable_tabletools" data-dt-idx="8" tabindex="0">
+	                                                Next
+	                                                </a>
+	                                            </li>
+	                                        </ul>
+	                                        <div class="table_register" style="float:right;"><button>등록</button></div>
+	                                    </div>
+	                                    
+	                                </div>
                                 </div>
                             </div>
                     <!-- end widget content -->
@@ -302,5 +352,9 @@
             </div>
             </div>
         <!-- end widget div -->
+        </div>
+        <!--  -->
+        </div>
+        <!-- end class row -->
     </body>
 </html>
