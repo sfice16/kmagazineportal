@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61172718-bb0f-4804-abbb-22d9874a677f" name="Default" comment="&lt;add&gt; added login page, logo and logout">
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.2/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.2/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.2/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.2/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.2/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.2/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome4.5/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/summernote.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/summernote.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fonts/summernote.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/link7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/login.html" />
+    <list default="true" id="61172718-bb0f-4804-abbb-22d9874a677f" name="Default" comment="&lt;change&gt; changed navigation linker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/icon.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -55,18 +21,44 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="363" column="56" lean-forward="true" selection-start-line="363" selection-start-column="56" selection-end-line="363" selection-end-column="56" />
+            <state relative-caret-position="248">
+              <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="95" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adminList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="e#6827#6833#0" expanded="true" />
+                <element signature="e#6833#6839#0" expanded="true" />
+                <element signature="e#6845#6851#0" expanded="true" />
+                <element signature="e#6904#6910#0" expanded="true" />
+                <element signature="e#6910#6916#0" expanded="true" />
+                <element signature="e#6916#6922#0" expanded="true" />
+                <element signature="e#6922#6928#0" expanded="true" />
+                <element signature="e#6928#6934#0" expanded="true" />
+                <element signature="e#6934#6940#0" expanded="true" />
+                <element signature="e#6942#6948#0" expanded="true" />
+                <element signature="e#6948#6954#0" expanded="true" />
+                <element signature="e#6954#6960#0" expanded="true" />
+                <element signature="e#6960#6966#0" expanded="true" />
+                <element signature="e#6966#6972#0" expanded="true" />
+                <element signature="e#6972#6978#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="115" column="26" lean-forward="false" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+            <state relative-caret-position="56">
+              <caret line="285" column="31" lean-forward="true" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -75,8 +67,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+            <state relative-caret-position="57">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -104,6 +96,17 @@
       <find>evente</find>
       <find>income</find>
       <find>smartch</find>
+      <find>stats</find>
+      <find>live</find>
+      <find>load</find>
+      <find>Live</find>
+      <find>jquery</find>
+      <find>jarvis</find>
+      <find>mybg</find>
+      <find>배너 과</find>
+      <find>fav</find>
+      <find>id=&quot;main</find>
+      <find>article&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,9 +120,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/adminList.html" />
       </list>
     </option>
   </component>
@@ -130,10 +134,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="4" />
-    <option name="width" value="1625" />
-    <option name="height" value="1033" />
+    <option name="x" value="-7" />
+    <option name="width" value="1714" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,6 +172,17 @@
               <item name="kmagazineportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="kmagazineportal" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kmagazineportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kmagazineportal" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kmagazineportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kmagazineportal" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="smartwidgets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +222,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512611421904</updated>
       <workItem from="1512612892337" duration="144000" />
-      <workItem from="1512613563817" duration="13098000" />
+      <workItem from="1512613563817" duration="22853000" />
     </task>
     <task id="LOCAL-00001" summary="added css files">
       <created>1512615953797</created>
@@ -217,16 +231,31 @@
       <option name="project" value="LOCAL" />
       <updated>1512615953797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&lt;add&gt; added login page, logo and logout button">
+      <created>1512634167032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512634167032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;change&gt; changed navigation linker">
+      <created>1512635194952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512635194952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13242000" />
+    <option name="totallyTimeSpent" value="22997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="4" width="1625" height="1033" extended-state="0" />
+    <frame x="-7" y="0" width="1714" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14618778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13842481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -234,7 +263,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26450893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13186814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -253,7 +282,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added css files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added css files" />
+    <MESSAGE value="&lt;add&gt; added login page, logo and logout button" />
+    <MESSAGE value="&lt;change&gt; changed navigation linker" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;change&gt; changed navigation linker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -342,27 +373,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
+    <entry file="file://$PROJECT_DIR$/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/app.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="363" column="56" lean-forward="true" selection-start-line="363" selection-start-column="56" selection-end-line="363" selection-end-column="56" />
+        <state relative-caret-position="476">
+          <caret line="169" column="2" lean-forward="false" selection-start-line="169" selection-start-column="2" selection-end-line="169" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="115" column="26" lean-forward="false" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+        <state relative-caret-position="56">
+          <caret line="285" column="31" lean-forward="true" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="95" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#6827#6833#0" expanded="true" />
+            <element signature="e#6833#6839#0" expanded="true" />
+            <element signature="e#6845#6851#0" expanded="true" />
+            <element signature="e#6904#6910#0" expanded="true" />
+            <element signature="e#6910#6916#0" expanded="true" />
+            <element signature="e#6916#6922#0" expanded="true" />
+            <element signature="e#6922#6928#0" expanded="true" />
+            <element signature="e#6928#6934#0" expanded="true" />
+            <element signature="e#6934#6940#0" expanded="true" />
+            <element signature="e#6942#6948#0" expanded="true" />
+            <element signature="e#6948#6954#0" expanded="true" />
+            <element signature="e#6954#6960#0" expanded="true" />
+            <element signature="e#6960#6966#0" expanded="true" />
+            <element signature="e#6966#6972#0" expanded="true" />
+            <element signature="e#6972#6978#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
