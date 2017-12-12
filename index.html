@@ -58,13 +58,13 @@
         <nav>
             <ul>
                 <li class="active">
-                    <a href="index.html" title="Dashboard"><span class="menu-item-parent">대시보드</span></a>
+                    <a href="index.html" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i><span class="menu-item-parent">대시보드</span></a>
                 </li>
                 <li class="top-menu-invisible">
-                    <a href="bannerManagement.html"> <span class="menu-item-parent">배너관리</span></a>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-newspaper-o"></i><span class="menu-item-parent">배너관리</span></a>
                     <ul>
-                        <li class="">
-                            <a href="bannerManagement.html" title="Dashboard"><span class="menu-item-parent">배너 관리</span></a>
+                        <li>
+                            <a href="bannerManagement.html"><span>배너 관리</span></a>
                         </li>
                         <li>
                             <a href="bannerStatistics.html">배너 통계</a>
@@ -72,10 +72,10 @@
                     </ul>
                 </li>
                 <li class="top-menu-invisible">
-                    <a href="#"><span class="menu-item-parent">통계관리</span></a>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-pie-chart"></i><span class="menu-item-parent">통계관리</span></a>
                     <ul>
-                        <li class="">
-                            <a href="magazineStatistics.html" title="Dashboard"><span class="menu-item-parent">매거진 별 접속현황</span></a>
+                        <li>
+                            <a href="magazineStatistics.html"><span>매거진 별 접속현황</span></a>
                         </li>
                         <li>
                             <a href="articleStatistics.html">기사별 통계</a>
@@ -86,7 +86,7 @@
                     </ul>
                 </li>
                 <li class="top-menu-invisible">
-                    <a href="adminList.html"><span class="menu-item-parent">관리자관리</span></a>
+                    <a href="adminList.html"><i class="fa fa-lg fa-fw fa-user"></i><span class="menu-item-parent">관리자관리</span></a>
                 </li>
             </ul>
         </nav>
@@ -99,7 +99,7 @@
             <section id="widget-grid" class="">
                 <!-- row -->
                 <div class="row">
-                    <article class="col-sm-10">
+                    <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <!-- new widget -->
                         <div class="jarviswidget" id="wid-id-0" da-fullscreenbutton="false" data-widget-colorbutton="false">
 
@@ -122,21 +122,24 @@
                             </header>
                             <!-- widget div-->
                             <div class="no-padding">
-                                <!-- widget edit box -->
-                                <div class="jarviswidget-editbox">
-                                    test
-                                </div>
-                                <!-- end widget edit box -->
                                 <div class="widget-body">
                                     <!-- content -->
                                     <div id="myTabContent" class="tab-content">
-                                        <div class="tab-pane fade active in padding-10 no-padding-bottom" id="s1">
+                                        <div class="tab-pane fade active in padding-10 padding-top-0" id="s1">
                                             <div class="row no-space">
-                                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
-                                                    <span class="demo-liveupdate-1">
-                                                        <span class="onoffswitch-title">Today 2017.12.07 14:30 </span>
-                                                        <button class="pull-right">기간별 상세보기</button>
-                                                    </span>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="padding-gutter">
+                                                        <div class="row no-space">
+                                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 padding-top-10 text-left">
+                                                                <span class="onoffswitch-title ">Today 2017.12.07 14:30 </span>
+                                                            </div>
+                                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right">
+                                                                <button class="btn btn-default">
+                                                                    기간별 상세보기
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div id="updating-chart" class="chart-large txt-color-blue"></div>
                                                 </div>
                                             </div>
@@ -150,7 +153,7 @@
                         </div>
                         <!-- end widget -->
                     </article>
-                    <article class="col-sm-5">
+                    <article class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                         <!-- new widget -->
                         <div class="jarviswidget" id="wid-id-1" da-fullscreenbutton="false" data-widget-colorbutton="false">
 
@@ -171,151 +174,46 @@
                                 <h2>인기검색어</h2>
                             </header>
                             <!-- widget div-->
-                            <div class="no-padding">
-                                <!-- widget edit box -->
-                                <div class="jarviswidget-editbox">
-                                    test
-                                </div>
-                                <!-- end widget edit box -->
-                                <div class="widget-body">
+                            <div>
                                     <!-- content -->
-                                    <div class="tab-pane fade active in padding-10 no-padding-bottom" id="s5">
-                                        <div class="show-stat-microcharts">
-                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-
-                                                <div class="easy-pie-chart txt-color-orangeDark" data-percent="33" data-pie-size="50">
-                                                    <span class="percent percent-sign">35</span>
-                                                </div>
-                                                <span class="easy-pie-title"> Server Load <i class="fa fa-caret-up icon-color-bad"></i> </span>
-                                                <ul class="smaller-stat hidden-sm pull-right">
-                                                    <li>
-                                                        <span class="label bg-color-greenLight"><i class="fa fa-caret-up"></i> 97%</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="label bg-color-blueLight"><i class="fa fa-caret-down"></i> 44%</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="sparkline txt-color-greenLight hidden-sm hidden-md pull-right" data-sparkline-type="line" data-sparkline-height="33px" data-sparkline-width="70px" data-fill-color="transparent">
-                                                    130, 187, 250, 257, 200, 210, 300, 270, 363, 247, 270, 363, 247
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                                <div class="easy-pie-chart txt-color-greenLight" data-percent="78.9" data-pie-size="50">
-                                                    <span class="percent percent-sign">78.9 </span>
-                                                </div>
-                                                <span class="easy-pie-title"> Disk Space <i class="fa fa-caret-down icon-color-good"></i></span>
-                                                <ul class="smaller-stat hidden-sm pull-right">
-                                                    <li>
-                                                        <span class="label bg-color-blueDark"><i class="fa fa-caret-up"></i> 76%</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="label bg-color-blue"><i class="fa fa-caret-down"></i> 3%</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="sparkline txt-color-blue hidden-sm hidden-md pull-right" data-sparkline-type="line" data-sparkline-height="33px" data-sparkline-width="70px" data-fill-color="transparent">
-                                                    257, 200, 210, 300, 270, 363, 130, 187, 250, 247, 270, 363, 247
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                                <div class="easy-pie-chart txt-color-blue" data-percent="23" data-pie-size="50">
-                                                    <span class="percent percent-sign">23 </span>
-                                                </div>
-                                                <span class="easy-pie-title"> Transfered <i class="fa fa-caret-up icon-color-good"></i></span>
-                                                <ul class="smaller-stat hidden-sm pull-right">
-                                                    <li>
-                                                        <span class="label bg-color-darken">10GB</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="label bg-color-blueDark"><i class="fa fa-caret-up"></i> 10%</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="sparkline txt-color-darken hidden-sm hidden-md pull-right" data-sparkline-type="line" data-sparkline-height="33px" data-sparkline-width="70px" data-fill-color="transparent">
-                                                    200, 210, 363, 247, 300, 270, 130, 187, 250, 257, 363, 247, 270
-                                                </div>
-                                            </div>
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1" style="padding-top: 20px">
+                                        <div class="easy-pie-chart txt-color-orangeDark" data-percent="66" data-pie-size="130">
+                                            1위<span class="percent percent-sign txt-color-orangeDark font-md">66</span>
                                         </div>
+                                        <h2 >패션</h2>
                                     </div>
-                                    <!-- end s1 tab pane -->
-
-                                    <div class="tab-pane fade" id="s2">
-                                        <div class="widget-body-toolbar bg-color-white">
-
-                                            <form class="form-inline" role="form">
-
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="s123">Show From</label>
-                                                    <input type="email" class="form-control input-sm" id="s123" placeholder="Show From">
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control input-sm" id="s124" placeholder="To">
-                                                </div>
-
-                                                <div class="btn-group hidden-phone pull-right">
-                                                    <a class="btn dropdown-toggle btn-xs btn-default" data-toggle="dropdown"><i class="fa fa-cog"></i> More <span class="caret"> </span> </a>
-                                                    <ul class="dropdown-menu pull-right">
-                                                        <li>
-                                                            <a href="javascript:void(0);"><i class="fa fa-file-text-alt"></i> Export to PDF</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"><i class="fa fa-question-sign"></i> Help</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                            </form>
-
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1" style="padding-top: 20px">
+                                        <div class="easy-pie-chart txt-color-greenLight" data-percent="55" data-pie-size="110">
+                                            2위<span class="percent percent-sign txt-color-greenLight font-md">55</span>
                                         </div>
-                                        <div class="padding-10">
-                                            <div id="statsChart" class="chart-large has-legend-unique"></div>
-                                        </div>
-
+                                        <h2 >골프</h2>
                                     </div>
-                                    <!-- end s2 tab pane -->
-
-                                    <div class="tab-pane fade" id="s3">
-
-                                        <div class="widget-body-toolbar bg-color-white smart-form" id="rev-toggles">
-
-                                            <div class="inline-group">
-
-                                                <label for="gra-0" class="checkbox">
-                                                    <input type="checkbox" name="gra-0" id="gra-0" checked="checked">
-                                                    <i></i> Target </label>
-                                                <label for="gra-1" class="checkbox">
-                                                    <input type="checkbox" name="gra-1" id="gra-1" checked="checked">
-                                                    <i></i> Actual </label>
-                                                <label for="gra-2" class="checkbox">
-                                                    <input type="checkbox" name="gra-2" id="gra-2" checked="checked">
-                                                    <i></i> Signups </label>
-                                            </div>
-
-                                            <div class="btn-group hidden-phone pull-right">
-                                                <a class="btn dropdown-toggle btn-xs btn-default" data-toggle="dropdown"><i class="fa fa-cog"></i> More <span class="caret"> </span> </a>
-                                                <ul class="dropdown-menu pull-right">
-                                                    <li>
-                                                        <a href="javascript:void(0);"><i class="fa fa-file-text-alt"></i> Export to PDF</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);"><i class="fa fa-question-sign"></i> Help</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1" style="padding-top: 20px">
+                                        <div class="easy-pie-chart txt-color-pinkDark" data-percent="36" data-pie-size="110">
+                                            3위<span class="percent percent-sign txt-color-pinkDark font-md">36</span>
                                         </div>
-
-                                        <div class="padding-10">
-                                            <div id="flotcontainer" class="chart-large has-legend-unique"></div>
-                                        </div>
+                                        <h2 >경제</h2>
                                     </div>
-                                    <!-- end s3 tab pane -->
-                                    <!-- end content -->
                                 </div>
-                            </div>
+                                <div class="row">
+                                    <ul style="list-style: none">
+                                        <li><span>4위</span>골프라이프</li>
+                                        <li><span>5위</span>금융계</li>
+                                        <li><span>6위</span>건축</li>
+                                        <li><span>7위</span>하우스</li>
+                                        <li><span>8위</span>스피커</li>
+                                        <li><span>9위</span>IT</li>
+                                        <li><span>10위</span>컴퓨터</li>
+                                    </ul>
+                                </div>
+                                </div>
+
                             <!-- end widget div -->
                         </div>
                         <!-- end widget -->
                     </article>
-                    <article class="col-sm-5">
+                    <article class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
                         <!-- new widget -->
                         <div class="jarviswidget" id="wid-id-2" da-fullscreenbutton="false" data-widget-colorbutton="false">
 
@@ -336,17 +234,16 @@
                                 <h2>기사별 PV/UV</h2>
                             </header>
                             <!-- widget div-->
-                            <div class="no-padding">
-                                <!-- widget edit box -->
-                                <div class="jarviswidget-editbox">
-                                    test
-                                </div>
-                                <!-- end widget edit box -->
+                            <div class="padding-top-0">
+                                <!-- content -->
                                 <div class="widget-body">
-                                    <!-- content -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <button class="pull-right">기간별 상세보기</button>
+                                    <!-- widget edit box -->
+                                    <div class="padding-gutter text-right">
+                                        <button class="btn btn-default">
+                                            기간별 상세보기
+                                        </button>
                                     </div>
+                                    <!-- end widget edit box -->
                                     <table id="dt_basic" class="table table-bordered table-hover text-center" width="100%">
                                         <thead>
                                         <tr class="text-center">
@@ -445,10 +342,7 @@
         <!-- END MAIN CONTENT -->
     </div>
     <!-- END MAIN PANEL -->
-        <!-- IMPORTANT: APP CONFIG -->
-        <script src="js/app.config.js"></script>
-        <!-- MAIN APP JS FILE -->
-        <script src="js/app.min.js"></script>
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
         <!-- 위젯은 jquery 3이상에서 작동하지 않음 -->
@@ -456,21 +350,53 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <!-- EASY PIE CHARTS -->
-        <script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-        <!-- SPARKLINES -->
-        <script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
+
+        <!-- IMPORTANT: APP CONFIG -->
+        <script src="js/app.config.js"></script>
+        <!-- MAIN APP JS FILE -->
+        <script src="js/app.min.js"></script>
 
         <!-- BOOTSTRAP JS -->
-
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <!-- JQUERY UI + Bootstrap Slider -->
+        <script src="js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+        <!-- EASY PIE CHARTS -->
+        <script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
         <!-- PAGE RELATED PLUGIN(S) -->
         <!-- Flot Chart Plugin: Flot Engine, Flot Resizer, Flot Tooltip -->
         <script src="http://cdn.jsdelivr.net/jquery.flot/0.8.3/jquery.flot.min.js"></script>
         <script src="js/smartwidgets/jarvis.widget.min.js"></script>
+        <script src="js/plugin/moment/moment.min.js"></script>
+        <script src="js/plugin/chartjs/chart.min.js"></script>
         <!-- PAGE RELATED PLUGIN(S) END -->
 
-        <script type="text/javascript">
+    <script type="text/javascript">
+
             $(document).ready(function() {
+                pageSetUp();
+                $(function() {
+                    $('.chart1').easyPieChart({
+                        barColor: '#ab9454',
+                        lineWidth: 11,
+                        size: 130,
+                        rotate: 270,
+                        lineCap: 'square',
+                    });
+                    $('.chart2').easyPieChart({
+                        barColor: '#4d8f30',
+                        lineWidth: 8,
+                        size: 130,
+                        rotate: 270,
+                        lineCap: 'square',
+                    });
+                    $('.chart3').easyPieChart({
+                        barColor: '#a769ac',
+                        lineWidth: 8,
+                        size: 130,
+                        rotate: 270,
+                        lineCap: 'square',
+                    });
+                });
                 /*
 				* RUN PAGE GRAPHS
 				*/
@@ -602,8 +528,6 @@
 
                         }
                     };
-
-                    var plot3 = $.plot($("#statsChart"), data, options);
                 });
 
                 // END TAB 2
