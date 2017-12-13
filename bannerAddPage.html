@@ -134,16 +134,16 @@
                                     <form class="smart-form">
                                         <fieldset>
                                             <div class="row">
-                                                <label class="label col col-2">제목</label>
-                                                <section class="col col-10">
+                                                <label class="label col col-1">제목</label>
+                                                <section class="col col-11">
                                                     <label class="input">
                                                         <input type="text" maxlength="20">
                                                     </label>
                                                 </section>
                                             </div>
                                             <div class="row">
-                                                <label class="label col col-2">공개여부</label>
-                                                <section class="col col-4">
+                                                <label class="label col col-1" style="padding-top: 4px;">공개여부</label>
+                                                <section class="col col-3">
                                                     <div class="inline-group">
                                                         <label class="radio">
                                                             <input type="radio" name="radio1" checked="">
@@ -155,7 +155,7 @@
                                                         </label>
                                                     </div>
                                                 </section>
-                                                <label class="label col col-2">링크연결방식</label>
+                                                <label class="label col col-1" style="padding-top: 4px;">링크연결방식</label>
                                                 <section class="col col-4">
                                                     <div class="inline-group">
                                                         <label class="radio">
@@ -170,8 +170,8 @@
                                                 </section>
                                             </div>
                                             <div class="row">
-                                                <label class="label col col-2">노출영역</label>
-                                                <section class="col col-10">
+                                                <label class="label col col-1" style="padding-top: 4px;">노출영역</label>
+                                                <section class="col col-11">
                                                     <div class="inline-group">
                                                         <label class="radio">
                                                             <input type="radio" name="radio3" checked="">
@@ -193,12 +193,13 @@
                                                 </section>
                                             </div>
                                             <div class="row">
-                                                <label class="label col col-2">알림기간</label>
+                                                <label class="label col col-1">알림기간</label>
                                                 <section class="col col-5">
                                                     <label class="input"> <i class="icon-append fa fa-calendar"></i>
                                                         <input type="text" name="startdate" id="startdate" placeholder="광고 시작일">
                                                     </label>
                                                 </section>
+                                                <label class="label col col-1 text-center" style="min-width: unset;">~</label>
                                                 <section class="col col-5">
                                                     <label class="input"> <i class="icon-append fa fa-calendar"></i>
                                                         <input type="text" name="finishdate" id="finishdate" placeholder="광고 종료일">
@@ -206,19 +207,19 @@
                                                 </section>
                                             </div>
                                             <div class="row">
-                                                <label class="label col col-2">이미지</label>
-                                                <section class="col col-10">
+                                                <label class="label col col-1">이미지</label>
+                                                <section class="col col-11">
                                                     <div class="input input-file">
                                                         <span class="button"><input type="file" id="file" name="file" onchange="this.parentNode.nextSibling.value = this.value">찾아보기</span><input type="text" readonly="">
                                                     </div>
                                                 </section>
                                             </div>
                                             <div class="row">
-                                                <label class="label col col-2">연결URL</label>
-                                                <section class="col col-10">
-                                                    <label class="label col col-1">http://</label>
-                                                    <label class="input col col-10">
-                                                        <input type="text" maxlength="30">
+                                                <label class="label col col-1">연결URL</label>
+                                                <section class="col col-11">
+                                                    <label class="input">
+                                                    <label class="label icon-prepend" style="width: 50px; border-right: none">http://</label>
+                                                        <input type="text" maxlength="30" style="padding-left: 50px">
                                                     </label>
                                                 </section>
                                             </div>
@@ -303,7 +304,7 @@
 
                                     <div class="dt-toolbar-footer">
                                         <div class="row">
-                                            <div class="col-md-6 col-md-offset-6 text-right">
+                                            <div class="col-md-12 text-right">
                                                 <button class="btn btn-default" style="width: 100px; margin-top: 17px; margin-bottom: 17px;">
                                                     확인
                                                 </button>
@@ -324,7 +325,6 @@
                                 </div>
                                 <!-- end widget content -->
                             </div>
-                        </div>
                         <!-- end widget -->
                     </article>
                 </div>
@@ -357,7 +357,28 @@
 <!-- PAGE RELATED PLUGIN(S) END -->
 
 <script type="text/javascript">
+    // DO NOT REMOVE : GLOBAL FUNCTIONS!
 
+    $(document).ready(function() {
+    // START AND FINISH DATE
+        $('#startdate').datepicker({
+            dateFormat : 'yy/mm/dd',
+            prevText : '<i class="fa fa-chevron-left"></i>',
+            nextText : '<i class="fa fa-chevron-right"></i>',
+            onSelect : function(selectedDate) {
+                $('#finishdate').datepicker('option', 'minDate', selectedDate);
+            }
+        });
+
+        $('#finishdate').datepicker({
+            dateFormat : 'yy/mm/dd',
+            prevText : '<i class="fa fa-chevron-left"></i>',
+            nextText : '<i class="fa fa-chevron-right"></i>',
+            onSelect : function(selectedDate) {
+                $('#startdate').datepicker('option', 'maxDate', selectedDate);
+            }
+        });
+     })
 </script>
 
 </body>

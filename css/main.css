@@ -136,6 +136,20 @@ textarea {
     height: 40px;
     background-color: #28445f;
 }
+/*
+.smart-form .col-1 {
+    min-width: 111px;
+}
+*/
+.smart-form .col-11 {
+    width: 91.67%;
+}
+
+@media screen and (max-width: 600px) {
+    .smart-form .col {
+        width: 100%;
+    }
+}
 
 /* ==========================================================================
    Helper classes

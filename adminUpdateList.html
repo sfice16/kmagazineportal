@@ -134,49 +134,70 @@
 
                                 <form id="smart-form-register" class="smart-form">
                                     <fieldset>
-                                        <section>
-                                            <label class="input"> <i class="icon-append fa fa-user"></i>
-                                                <input type="text" name="username" placeholder="아이디를 입력해주세요.">
-                                                <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
-                                        </section>
-                                        <section>
-                                            <label class="input"> <i class="icon-append fa fa-user"></i>
-                                                <input type="text" name="username" placeholder="이름을 입력해주세요.">
-                                                <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
-                                        </section>
-                                        <section>
-                                            <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
-                                                <input type="email" name="email" placeholder="E-mail 주소를 입력해 주세요.">
-                                                <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
-                                        </section>
-                                        <section>
-                                            <label class="input"> <i class="icon-append fa fa-phone"></i>
-                                                <input type="tel" name="phone" placeholder="연락처를 입력해 주세요." data-mask="(999) 999-9999">
-                                                <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
-                                        </section>
-                                        <section>
-                                            <label class="input"> <i class="icon-append fa fa-lock"></i>
-                                                <input type="password" name="password" placeholder="비밀번호를 입력해 주세요." id="password">
-                                                <b class="tooltip tooltip-bottom-right">Don't forget your password</b> </label>
-                                        </section>
-                                        <section>
-                                            <label class="input"> <i class="icon-append fa fa-lock"></i>
-                                                <input type="password" name="passwordConfirm" placeholder="비밀번호를 확인해 주세요.">
-                                                <b class="tooltip tooltip-bottom-right">Don't forget your password</b> </label>
-                                        </section>
-                                        <section class="col-4">
-                                            <label class="select">
-                                            <select name="activation">
-                                                <option value="0" selected="" disabled="">활성화 여부</option>
-                                                <option value="1">Y</option>
-                                                <option value="2">N</option>
-                                            </select> <i></i> </label>
-                                        </section>
+                                        <div class="row">
+                                            <label class="label col col-1">아이디</label>
+                                            <section class="col col-11">
+                                                <label class="input"> <i class="icon-append fa fa-user"></i>
+                                                    <input type="text" name="username" placeholder="아이디를 입력해주세요.">
+                                                    <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
+                                            </section>
+                                        </div>
+                                        <div class="row">
+                                            <label class="label col col-1">이름</label>
+                                            <section class="col col-11">
+                                                <label class="input"> <i class="icon-append fa fa-user"></i>
+                                                    <input type="text" name="username" placeholder="이름을 입력해주세요.">
+                                                    <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
+                                            </section>
+                                        </div>
+                                        <div class="row">
+                                            <label class="label col col-1">E-mail</label>
+                                            <section class="col col-11">
+                                                <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
+                                                    <input type="email" name="email" placeholder="E-mail 주소를 입력해 주세요.">
+                                                    <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
+                                            </section>
+                                        </div>
+                                        <div class="row">
+                                            <label class="label col col-1">연락처</label>
+                                            <section class="col col-11">
+                                                <label class="input"> <i class="icon-append fa fa-phone"></i>
+                                                    <input type="tel" name="phone" placeholder="연락처를 입력해 주세요." data-mask="(999) 999-9999">
+                                                    <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
+                                            </section>
+                                        </div>
+                                        <div class="row">
+                                            <label class="label col col-1">비밀번호</label>
+                                            <section class="col col-11">
+                                                <label class="input"> <i class="icon-append fa fa-lock"></i>
+                                                    <input type="password" name="password" placeholder="비밀번호를 입력해 주세요." id="password">
+                                                    <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
+                                            </section>
+                                        </div>
+                                        <div class="row">
+                                            <label class="label col col-1">비밀번호확인</label>
+                                            <section class="col col-11">
+                                                <label class="input"> <i class="icon-append fa fa-lock"></i>
+                                                    <input type="password" name="passwordConfirm" placeholder="비밀번호를 확인해 주세요.">
+                                                    <b class="tooltip tooltip-bottom-right">필수 입력값 입니다.</b> </label>
+                                            </section>
+                                        </div>
+                                        <div class="row">
+                                            <label class="label col col-1">상태</label>
+                                            <section class="col col-4">
+                                                <label class="select">
+                                                <select name="activation">
+                                                    <option value="0" selected="" disabled="">활성화 여부</option>
+                                                    <option value="1">Y</option>
+                                                    <option value="2">N</option>
+                                                </select> <i></i> </label>
+                                            </section>
+                                        </div>
                                     </fieldset>
                                 </form>
                                 <div class="dt-toolbar-footer">
                                     <div class="row">
-                                        <div class="col-md-6 col-md-offset-6 text-right">
+                                        <div class="col-md-12 text-right">
                                             <button class="btn btn-default" type="submit" style="width: 100px; margin-top: 17px; margin-bottom: 17px;">
                                                 저장
                                             </button>
