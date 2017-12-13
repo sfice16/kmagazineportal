@@ -29,9 +29,31 @@
 
     <!-- for custom style of this project -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.min.css">
 
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
+    
+    
+    
+    
+    <!-- PIE CHART BY SDLEE-->
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.min.css">
+    <link rel="apple-touch-icon" href="img/splash/sptouch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/splash/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/splash/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/splash/touch-icon-ipad-retina.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-startup-image" href="img/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+	<link rel="apple-touch-startup-image" href="img/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+	<link rel="apple-touch-startup-image" href="img/splash/iphone.png" media="screen and (max-device-width: 320px)">
+    <!-- PIE CHART BY SDLEE-->
+    
+    
 </head>
 <body>
 <!-- HEADER -->
@@ -100,7 +122,7 @@
             <div class="page-title txt-color-blueDark">
                 <!-- PAGE HEADER -->
                 <span>
-                    통계관리 > 매거진 별 접속현황
+                    
 				</span>
             </div>
         </div>
@@ -110,11 +132,13 @@
             <!-- row -->
             <div class="row">
                 <span>
-                    2017년 6월 17일 15시 현재 매체별 통계 현황 (PV 기준)
+                    
 				</span>
                 <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <!-- Widget ID (each widget will need unique ID)-->
-                    <div class="jarviswidget" id="wid-id-1" data-widget-editbutton="false" data-widget-custombutton="false">
+                    <div class="jarviswidget" id="wid-id-1" 
+                    data-widget-editbutton="false" 
+                    data-widget-custombutton="false">
                         <!-- widget options:
                             usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
                             data-widget-colorbutton="false"
@@ -129,7 +153,106 @@
                         <!-- widget div-->
                         <div class="widget-body">
                             <!-- this is what the user will see -->
-                            <canvas id="pieChart" height="120"></canvas>
+                            
+                            
+                           <!-- MAIN PANEL -->
+							<!-- <div id="main" role="main"> -->
+							
+							
+							
+								<!-- MAIN CONTENT -->
+								<div id="content">
+									<!-- START ROW1 -->
+									<div class="row">
+										<!-- START COL-SM-12 -->
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+											<!-- START WELL -->
+											<div class="well">
+												<h4 class="txt-color-blue">
+													<span class="semi-bold">통계관리 > 매거진 별 접속현황<br>2017년 6월 17일 15시 현재 매체별 통계 현황 (PV 기준)</span>
+												</h4>
+												<!-- START ROW2 -->											
+												<div class="row">
+													<!-- START col-xs-12 col-sm-6 col-md-6 col-lg-3 -->
+													<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+														<!-- START well well-sm well-light -->													
+														<div class="well well-sm well-light" align="center">
+															
+																<!--<span class="semi-bold">통계관리 > 매거진 별 접속현황<br>2017년 6월 17일 15시 현재 매체별 통계 현황 (PV 기준)</span>--> 
+																
+															
+															<br>
+															<!-- START text-center-->
+															<!--<div class="text-center">
+																<div class="sparkline txt-color-blue display-inline" 
+																data-sparkline-type="pie" 
+																data-sparkline-offset="90" 
+																data-sparkline-piesize="75px">3,5,2</div>  -->
+																
+																
+																
+																<div class="sparkline txt-color-blue display-inline"  
+																data-sparkline-type="pie" 
+																data-sparkline-offset="90" 
+																data-sparkline-piesize="150px">30,20,15,35</div>
+																
+																
+																
+																
+															</div>
+															<!-- END text-center -->
+															
+															
+															
+														</div>
+														<!-- 테이블 -->
+														<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+																<table id="dt_basic" class="table table-bordered table-hover text-center" width="100%">
+								                                    <tbody>
+								                                    <tr>
+								                                        <td>나일론</td>
+								                                        <td>50회</td>
+								                                    </tr>
+								                                    <tr>
+								                                        <td>그라치아</td>
+								                                        <td>25회</td>
+								                                    </tr>
+								                                    <tr>
+								                                        <td>우먼센스</td>
+								                                        <td>10회</td>
+								                                    </tr>
+								                                    <tr>
+								                                        <td>리빙센스</td>
+								                                        <td>18회</td>
+								                                    </tr>
+								                                    <tr>
+								                                        <td>베스트베이비</td>
+								                                        <td>20회</td>
+								                                    </tr>
+								                                    
+								                                    </tbody>
+								                                </table>	
+																	
+																	
+																	
+														</div>
+														<!-- 테이블 -->
+														
+														<!-- END well well-sm well-light-->
+													</div>
+													<!--END col-xs-12 col-sm-6 col-md-6 col-lg-3-->
+												</div>
+												<!--END ROW2-->
+											</div>
+											<!-- END WELL -->
+										</div>
+										<!-- END COL-SM-12 -->
+									</div>
+									<!-- END ROW1 -->
+								</div>
+								<!-- END MAIN CONTENT -->
+							<!-- </div> -->
+							<!-- END MAIN PANEL -->
                         </div>
                         <div class="padding-top-0" style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;">
                             <form class="smart-form">
@@ -168,6 +291,21 @@
             <!-- end row -->
         </section>
         <!-- end widget grid -->
+        
+        <!-- Start Bar chart -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        	
+        	
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </div>
     <!-- END MAIN CONTENT -->
 </div>
@@ -388,6 +526,150 @@
     })
 
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
+		<script data-pace-options='{ "restartOnRequestAfter": true }' src="js/plugin/pace/pace.min.js"></script>
+
+		<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+			if (!window.jQuery) {
+				document.write('<script src="js/libs/jquery-2.1.1.min.js"><\/script>');
+			}
+		</script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script>
+			if (!window.jQuery.ui) {
+				document.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+			}
+		</script>
+
+		<!-- IMPORTANT: APP CONFIG -->
+		<script src="js/app.config.js"></script>
+
+		<!-- JS TOUCH : include this plugin for mobile drag / drop touch events-->
+		<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> 
+
+		<!-- BOOTSTRAP JS -->
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+
+		<!-- CUSTOM NOTIFICATION -->
+		<script src="js/notification/SmartNotification.min.js"></script>
+
+		<!-- JARVIS WIDGETS -->
+		<script src="js/smartwidgets/jarvis.widget.min.js"></script>
+
+		<!-- EASY PIE CHARTS -->
+		<script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+
+		<!-- SPARKLINES -->
+		<script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
+
+		<!-- JQUERY VALIDATE -->
+		<script src="js/plugin/jquery-validate/jquery.validate.min.js"></script>
+
+		<!-- JQUERY MASKED INPUT -->
+		<script src="js/plugin/masked-input/jquery.maskedinput.min.js"></script>
+
+		<!-- JQUERY SELECT2 INPUT -->
+		<script src="js/plugin/select2/select2.min.js"></script>
+
+		<!-- JQUERY UI + Bootstrap Slider -->
+		<script src="js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+
+		<!-- browser msie issue fix -->
+		<script src="js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
+
+		<!-- FastClick: For mobile devices -->
+		<script src="js/plugin/fastclick/fastclick.min.js"></script>
+
+		<!--[if IE 8]>
+
+		<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
+
+		<![endif]-->
+
+		<!-- Demo purpose only -->
+		<script src="js/demo.min.js"></script>
+
+		<!-- MAIN APP JS FILE -->
+		<script src="js/app.min.js"></script>
+
+		<!-- ENHANCEMENT PLUGINS : NOT A REQUIREMENT -->
+		<!-- Voice command : plugin -->
+		<script src="js/speech/voicecommand.min.js"></script>
+
+		<!-- SmartChat UI : plugin -->
+		<script src="js/smart-chat-ui/smart.chat.ui.min.js"></script>
+		<script src="js/smart-chat-ui/smart.chat.manager.min.js"></script>
+
+		<script type="text/javascript">
+			// DO NOT REMOVE : GLOBAL FUNCTIONS!
+			$(document).ready(function() {
+				pageSetUp();
+			})
+
+
+		</script>
+
+		<!-- Your GOOGLE ANALYTICS CODE Below -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
