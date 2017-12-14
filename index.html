@@ -75,7 +75,7 @@
                     <a href="#"><i class="fa fa-lg fa-fw fa-pie-chart"></i><span class="menu-item-parent">통계관리</span></a>
                     <ul>
                         <li>
-                            <a href="magazineStatistics.html"><span>매거진 별 접속현황</span></a>
+                            <a href="magazineStatistics.html"><span>매거진 별 통계</span></a>
                         </li>
                         <li>
                             <a href="articleStatistics.html">기사별 통계</a>
@@ -93,6 +93,14 @@
     </aside>
     <!-- MAIN PANEL -->
     <div id="main" role="main">
+        <!-- RIBBON -->
+        <div id="ribbon">
+            <!-- breadcrumb -->
+            <ol class="breadcrumb">
+                <li>홈</li><li>대시보드</li>
+            </ol>
+        </div>
+        <!-- END RIBBON -->
         <!-- MAIN CONTENT -->
         <div id="content">
             <!-- widget grid -->
@@ -133,10 +141,12 @@
                                                                     <i class="fa fa-refresh"></i>
                                                                 </span>
                                                             </div>
-                                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right">
-                                                                <button class="btn btn-default">
-                                                                    기간별 상세보기
-                                                                </button>
+                                                            <div class="col-md-4 text-right">
+                                                                <a href="magazineStatisticsView.html" class="linkBtn">
+                                                                    <button class="btn btn-default" style="padding: 5px 0; width: 120px; height: 32px;">
+                                                                        기간별 상세보기
+                                                                    </button>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -215,9 +225,11 @@
                                 <div class="widget-body">
                                     <!-- widget edit box -->
                                     <div class="padding-gutter text-right">
-                                        <button class="btn btn-default">
-                                            기간별 상세보기
-                                        </button>
+                                        <a href="articleStatisticsView.html" class="linkBtn">
+                                            <button class="btn btn-default" style="padding: 5px 0; width: 120px; height: 32px;">
+                                                기간별 상세보기
+                                            </button>
+                                        </a>
                                     </div>
                                     <!-- end widget edit box -->
                                     <table id="dt_basic" class="table table-bordered table-hover text-center" width="100%">
